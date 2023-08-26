@@ -1,7 +1,8 @@
 import "./App.css";
+import Header from "./Componets/Header";
 
 const App = () => {
-  return <p>Hola</p>;
+  return <Header />;
 };
 
 export default App;
