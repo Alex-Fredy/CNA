@@ -1,12 +1,11 @@
+import "../Styles/Header.css";
 const Header = () => {
   return (
-    <header>
-      <ol>
-        <li>Titulo uno</li>
-        <li>Titulo dos</li>
-        <li>Titulo tres</li>
-        <li>Titulo cuatro</li>
-      </ol>
+    <header className="header">
+      <div>
+        <h4 className="h4">CNA</h4>
+        <h5 className="h5">Control de Notas del grupo Aguacateros</h5>
+      </div>
     </header>
   );
 };
